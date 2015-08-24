@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title>JYK doodle</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link rel="shortcut icon" href="http://jyk.space/wp-content/uploads/2015/05/favicon-16x16.png" type="image/x-icon" />
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">JYK Doodle Page</h1>
+    
+    <center><p style="text-align: center; width:600px; font-size: 18px; font-weight: bold; border: solid indigo 2px; border-radius:10px;"><em>This is a page for you to draw little something in your mind. Go ahead and select you favourite color and start moving the mouse over to the canvas to start drawing! You can change color in the middle of your drawing. To change the thickness, simply click on the Thickness button. Last, but not list, clear the canvas by click the clear button or change the thickness. Enjoy!</em></p></center>
+    
+    <center><div style="clear:both;display:inline-block">
+            <div class="button" id="color">Color</div>
+            <div id="c-panel">
+            <ul>
+                <li id='black'>Black</li>
+                <li id='red' style="color:red">Red</li>
+                <li id='blue' style="color:blue">Blue</li>
+                <li id='green' style="color:green">Green</li>
+                <li id='yellow' style="color:yellow">Yellow</li>
+                <li id='white' style="color:white">White</li>
+            </ul>
+            </div>
+        <div class="button" id="thickness">Thickness</div>
+        <div class="button" id="clear">Clear</div>
+    </div></center>
+    
+    <h2 style="color:navy; text-align:center; margin-bottom: -1px ">Canvas</h2>
+    
+    <center>
+        <div class="canvas">
+        </div>
+    </center>
+    
+    <center><a href="http://jyk.space/2015/08/19/web-development-101/"><h2>Back to my website</h2></a></center>
+    <script type="text/javascript" src="doodle.js"></script>
+</body>
+
+</html>
